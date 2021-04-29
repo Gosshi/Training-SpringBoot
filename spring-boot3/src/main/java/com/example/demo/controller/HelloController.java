@@ -16,7 +16,7 @@ public class HelloController {
     }
 
     @PostMapping("/confirm")
-    //httpのpostリクエストを受け付ける
+    //httpのpostリクエストを受け付ける.
     public String confirm(@RequestParam(required = false) String message, Model model){
         //コントローラ側で、モデルに変数messageを登録しているため、confirm.html
         //で扱うことができる
