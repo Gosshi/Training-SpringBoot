@@ -22,7 +22,7 @@ public class HelloController {
         //で扱うことができる
         //@RequestMappingは、GETやPOSTなどの集合体で、５種類のリクエスト
         // （GET、POST、PUT、DELETE、PATCH）を受け取ることができます。また、
-        //@RequestMappingは、クラスレベルとメソッドレベルの両方で使用できます。
+        //@RequestMappingは、クラスレベルとメソッドレベルの両方で使用できます
         model.addAttribute("message",message);
         return "confirm";
     }
